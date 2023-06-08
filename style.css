@@ -1,0 +1,39 @@
+
+html, body {
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    min-width: 400px;
+}
+
+#ville {
+    text-transform: capitalize;
+}
+
+#temperature {
+    font-size: 4em;
+}
+
+#changer {
+    background: rgba(178, 223, 251, .3);
+    cursor: pointer;
+    border: 1px solid rgba(178, 223, 251, .3);
+    padding: 15px 30px;
+    border-radius: 3%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 45%;
+    height: 100vh; /* Vous pouvez ajuster cela en fonction de vos besoins */
+}
+.container, #changer {
+    display: inline-block;
+}
+
+#changer {
+    clear: both;
+}
+
